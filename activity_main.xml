@@ -69,6 +69,7 @@
         android:background="#00000000"
         android:contentDescription="@string/email_to"
         android:src="@mipmap/map288"
+        android:onClick="onClick"
         app:layout_constraintBottom_toTopOf="@+id/imageButton3"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -97,6 +98,7 @@
         android:background="#00000000"
         android:contentDescription="@string/web_site"
         android:src="@mipmap/internet288"
+        android:onClick="onClick"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -125,6 +127,7 @@
         android:background="#00000000"
         android:contentDescription="@string/map"
         android:src="@mipmap/phone288"
+        android:onClick="onClick"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -153,6 +156,7 @@
         android:background="#00000000"
         android:contentDescription="@string/phone_call"
         android:src="@mipmap/email288"
+        android:onClick="onClick"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
 
